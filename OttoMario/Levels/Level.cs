@@ -179,8 +179,6 @@ public class Level
         {
             if (!enemy.IsAlive) continue;
             
-            bool onGround = false;
-            
             foreach (var block in Blocks)
             {
                 if (!block.IsActive) continue;
@@ -206,7 +204,6 @@ public class Level
                         // On ground
                         enemy.Position = new Vector2(enemy.Position.X, blockBounds.Top - enemyBounds.Height);
                         enemy.Velocity = new Vector2(enemy.Velocity.X, 0);
-                        onGround = true;
                     }
                     
                     enemy.UpdateBoundsPublic();
