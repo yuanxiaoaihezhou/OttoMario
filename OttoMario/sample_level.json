@@ -1,0 +1,17 @@
+{
+  "Name": "Sample Level - Tutorial",
+  "Width": 200,
+  "Height": 15,
+  "PlayerStartPosition": {
+    "X": 100,
+    "Y": 300
+  },
+  "BackgroundColor": {
+    "R": 92,
+    "G": 148,
+    "B": 252,
+    "A": 255
+  },
+  "TimeLimit": 300,
+  "Entities": []
+}
